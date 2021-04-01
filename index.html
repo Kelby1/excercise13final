@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelby Homepage</title>
+    <style>
+      *{
+  box-sizing: border-box;
+}
+
+.firetank{
+    background-color: white;
+    background-position: left ;
+    background-repeat: no-repeat, repeat;
+     height: 15vh;
+     width: 100vw;
+     position: absolute;
+     top: 0;
+     left: 0;
+     z-index: 3;
+     opacity: .60;
+     background-image: url(video/baguio.jpg);
+     background-size: 200px 100px;
+ }
+
+ 
+ 
+ .firetank h3{
+    font-size: 40px;
+    margin: 0;
+     text-align: center;
+     color: black;
+ }
+ 
+ .fireteam{
+   font-size: 20px;
+   margin-left: 40%;
+   margin-bottom: 30%;
+ }
+ 
+ .fireteam:link{
+     color: lightskyblue;
+ }
+ 
+ .fireteam:visited{
+     color: red;
+ }
+ 
+ .fireteam:hover{
+     color: orange;
+ }
+ 
+ .fireteam:active{
+     color: palegreen;
+ }
+
+body{
+  margin:0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size:1rem;
+  font-weight:normal;
+  line-height:1.5;
+  color:#333;
+  overflow-x:hidden;
+}
+
+.v-header{
+  height:100vh;
+  display:flex;
+  align-items:center;
+  color:#fff;
+}
+
+.container{
+  max-width:960px;
+  padding-left:1rem;
+  padding-right:1rem;
+  margin:auto;
+  text-align:center;
+}
+
+.fullscreen-video-wrap{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100vh;
+  overflow:hidden;
+}
+
+.fullscreen-video-wrap video{
+  min-height:100%;
+  min-width:100%;
+}
+
+.header-overlay{
+  height:100vh;
+  position: absolute;
+  top:0;
+  left:0;
+  width:100vw;
+  z-index:1;
+ 
+}
+
+.header-content{
+  z-index:2;
+}
+
+.header-content h1{
+  font-size:50px;
+  margin-bottom:0;
+  
+}
+
+.header-content p{
+  font-size:1.5rem;
+  display:block;
+  padding-bottom:2rem;
+  
+}
+
+.btn{
+  background: #34b3a0;
+  color:#fff;
+  font-size:1.2rem;
+  padding: 1rem 2rem;
+  text-decoration: none;
+}
+
+.section{
+  padding:20px 0;
+}
+
+.section-b{
+  background:#333;
+  color:#fff;
+}
+
+@media(max-width:960px){
+  .container{
+    padding-right:3rem;
+    padding-left:3rem;
+  }
+}
+
+footer{
+    padding: 20px 0;
+    margin-left: 7%;
+    font-size: 1.2rem;
+}
+    </style>
+</head>
+<header class="firetank">
+        
+    <h3>My Kelby School Homepage</h3>
+    
+    <div class="fireteam">
+    <nav >
+        <a href="#">Profile</a>
+        <a href="#">About</a>
+        <a href="#">Home</a>
+        <a href="#">Settings</a>
+    </nav>
+    </div>
+    
+</header>
+<body>
+<header class="v-header container">
+    <div class="fullscreen-video-wrap">
+      <video src="video/jacklantern_Trim.mp4" autoplay="true" loop="true">
+    </video>
+    </div>
+    <div class="header-overlay"></div>
+    <div class="header-content text-md-center">
+      <h1>Baguio College of Technology</h1>
+      <p>I Graduated on this school when I was in my Senior High school Day's and this school taught me early IT and information
+          about computer's. It gave me memories and tools that I need and to need this things I am also using it on my 
+          College days. Now that I am now in my First year college I am still using it today.
+      </p>
+      <a class="btn" href="#">Find Out More</a>
+    </div>
+  </header>
+
+  <section class="section section-a">
+    <div class="container">
+      <h2>Section A</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, impedit amet minima iste autem cumque et maiores blanditiis doloribus aut dolorum quaerat non est voluptatum, tempore ut dolorem voluptas quod quae accusantium, ex inventore ducimus. Beatae mollitia exercitationem, quam similique, consectetur ratione reprehenderit delectus neque eligendi facere soluta dolor ducimus!</p>
+    </div>
+  </section>
+
+  <section class="section section-b">
+    <div class="container">
+      <h2>Section B</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, impedit amet minima iste autem cumque et maiores blanditiis doloribus aut dolorum quaerat non est voluptatum, tempore ut dolorem voluptas quod quae accusantium, ex inventore ducimus. Beatae mollitia exercitationem, quam similique, consectetur ratione reprehenderit delectus neque eligendi facere soluta dolor ducimus!</p>
+    </div>
+  </section>
+
+  <footer>
+      <p>Author @ Kelby M. Dati<br>
+        <p>References<br>
+<a href="https://www.youtube.com/watch?v=Xy3GlrddZFI" target="_blank">Tutorial</a><br>
+<a href="https://codepen.io/bradtraversy/pen/pWpRom" target="_blank">codepen</a><br>
+<a href="https://www.w3schools.com/" target="_blank">w3schools</a>
+      </p>
+  </footer>
+</body>
+</html>
